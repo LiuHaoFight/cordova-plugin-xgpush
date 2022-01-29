@@ -135,6 +135,11 @@ public class XGPushReceiver extends XGPushBaseReceiver {
   }
 
   @Override
+  public void onQueryTagsResult(Context context, int i, String s, String s1) {
+  
+  }
+
+  @Override
   public void onDeleteAttributeResult(Context context, int i, String s) {
 
   }

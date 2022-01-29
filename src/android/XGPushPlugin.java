@@ -49,8 +49,8 @@ public class XGPushPlugin extends CordovaPlugin {
             xmKey = bundle.getString("XM_APPKEY");
             mzId = bundle.getString("MZ_APPID");
             mzKey = bundle.getString("MZ_APPKEY");
-            Log.d("Vitta", xmId);
-            Log.d("Vitta", xmKey);
+            Log.i(TAG, "xmId " + xmId + " xmKey " + xmKey);
+            Log.i(TAG, "mzId " + mzId + " mzKey " + mzKey);
         } catch (PackageManager.NameNotFoundException e) {
             Log.e(TAG, "Failed to load meta-data, NameNotFound: " + e.getMessage());
         } catch (NullPointerException e) {
